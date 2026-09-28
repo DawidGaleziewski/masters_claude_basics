@@ -3,7 +3,7 @@ Things to do with llearned material
 Try to use each of these and find if it is usefull in pathfinrer-ai
 
 # claude.md and permissions
-## CLAUDE.md
+## CLAUDE.md [x]
 Think about things that could be added to it for beeter steering
 
 ## Permissions
@@ -11,8 +11,9 @@ Check if there are things you could strip from agents for safety and tightening 
 
 # Commands
 ## /powerup
-## /insights
+## /insights [x] <-awesome/
 ## /skill-creator
+## /context [x] <- not bad
 
 # Skills
 

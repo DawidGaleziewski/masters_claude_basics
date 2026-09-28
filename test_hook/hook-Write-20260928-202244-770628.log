@@ -1,0 +1,18 @@
+{
+  "session_id": "e96ab14f-9039-4e38-840c-04ef35066e72",
+  "transcript_path": "/home/dawid/.claude/projects/-home-dawid-projects-pathfinder-ai/e96ab14f-9039-4e38-840c-04ef35066e72.jsonl",
+  "cwd": "/home/dawid/projects/pathfinder-ai",
+  "scratchpad_dir": "/tmp/claude-1000/-home-dawid-projects-pathfinder-ai/e96ab14f-9039-4e38-840c-04ef35066e72/scratchpad",
+  "prompt_id": "c4be18a5-8f95-4d92-bf9c-71d7711a6f50",
+  "permission_mode": "auto",
+  "effort": {
+    "level": "medium"
+  },
+  "hook_event_name": "PreToolUse",
+  "tool_name": "Write",
+  "tool_input": {
+    "file_path": "/home/dawid/projects/pathfinder-ai/.claude/settings.local.json",
+    "content": "{\n  \"enabledMcpjsonServers\": [\n    \"pathfinder\",\n    \"pathfinder-ba\"\n  ],\n  \"hooks\": {\n    \"PreToolUse\": [\n      {\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"python3 .claude/hooks/log_hook.py\"\n          }\n        ]\n      }\n    ],\n    \"PostToolUse\": [\n      {\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"python3 .claude/hooks/log_hook.py\"\n          }\n        ]\n      }\n    ],\n    \"PostToolUseFailure\": [\n      {\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"python3 .claude/hooks/log_hook.py\"\n          }\n        ]\n      }\n    ],\n    \"UserPromptSubmit\": [\n      {\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"python3 .claude/hooks/log_hook.py\"\n          }\n        ]\n      }\n    ],\n    \"SessionStart\": [\n      {\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"python3 .claude/hooks/log_hook.py\"\n          }\n        ]\n      }\n    ],\n    \"SessionEnd\": [\n      {\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"python3 .claude/hooks/log_hook.py\"\n          }\n        ]\n      }\n    ],\n    \"Stop\": [\n      {\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"python3 .claude/hooks/log_hook.py\"\n          }\n        ]\n      }\n    ],\n    \"SubagentStart\": [\n      {\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"python3 .claude/hooks/log_hook.py\"\n          }\n        ]\n      }\n    ],\n    \"SubagentStop\": [\n      {\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"python3 .claude/hooks/log_hook.py\"\n          }\n        ]\n      }\n    ],\n    \"PreCompact\": [\n      {\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"python3 .claude/hooks/log_hook.py\"\n          }\n        ]\n      }\n    ],\n    \"PostCompact\": [\n      {\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"python3 .claude/hooks/log_hook.py\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+  },
+  "tool_use_id": "toolu_01N522iKviCMsWiEqjSaHXD8"
+}
