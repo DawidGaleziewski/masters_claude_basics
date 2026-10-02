@@ -1,0 +1,17 @@
+{
+  "description": "Blocks `git commit` when `npm run typecheck` fails.",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/scripts/typecheck-gate.sh\"",
+            "timeout": 120
+          }
+        ]
+      }
+    ]
+  }
+}
